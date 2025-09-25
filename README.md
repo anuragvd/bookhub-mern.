@@ -21,3 +21,40 @@ If you are developing a production application, we recommend using TypeScript wi
 # bookhub-mern.
 BookHub is a full-stack MERN application that allows users to manage books with authentication and authorization. The project includes secure user login/registration, JWT-based authentication, CRUD operations for books, and a responsive frontend built with React, Tailwind CSS, and Vite.
 >>>>>>> 4b0be52e0dec7c6a9e305a07ccb94db8e1cbfb95
+
+# 📚 BookHub – MERN Stack Application
+
+A full-stack MERN (MongoDB, Express, React, Node.js) project for book management with authentication.
+
+## 🚀 Features
+- JWT Authentication (Register/Login)
+- Book CRUD operations (Create, Read, Update, Delete)
+- Responsive UI with React + Tailwind CSS
+- RESTful APIs tested in Postman
+
+## 🛠 Tech Stack
+- **Frontend:** React, Vite, Tailwind CSS, Axios, React Router
+- **Backend:** Node.js, Express, MongoDB, JWT, bcrypt
+- **Tools:** Postman, Git, GitHub
+
+## 📂 Project Structure
+bookhub/
+├── backend/ # Express + MongoDB
+├── frontend/ # React + Vite + Tailwind
+
+shell
+Copy code
+
+## 🔑 Setup & Run
+
+### 1️⃣ Backend
+```bash
+cd backend
+npm install
+npm run dev
+2️⃣ Frontend
+bash
+Copy code
+cd frontend
+npm install
+npm run dev
