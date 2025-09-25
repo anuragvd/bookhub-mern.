@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ========== Global Styles ========== */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  @apply bg-gray-50 text-gray-800 font-sans antialiased;
+}
+
+/* ========== Container Utility ========== */
+.container {
+  @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* ========== Typography ========== */
+h1 {
+  @apply text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-gray-900;
+}
+h2 {
+  @apply text-xl sm:text-2xl md:text-3xl font-semibold mb-3 text-gray-800;
+}
+h3 {
+  @apply text-lg sm:text-xl md:text-2xl font-medium mb-2 text-gray-700;
+}
+p {
+  @apply text-base sm:text-lg md:text-xl mb-4 leading-relaxed;
+}
+
+/* ========== Buttons ========== */
+.btn {
+  @apply inline-flex items-center justify-center px-4 py-2 rounded-lg font-medium transition 
+         bg-blue-600 text-white hover:bg-blue-700 
+         focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2;
+}
+
+/* ========== Cards ========== */
+.card {
+  @apply bg-white rounded-2xl shadow-md p-4 sm:p-6 lg:p-8;
+}
+
+/* ========== Links ========== */
+a {
+  @apply text-blue-600 hover:text-blue-800 transition;
+}
